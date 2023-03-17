@@ -1,6 +1,6 @@
 Feature: test
 
-  @check
+  @positiveLogin
   Scenario: test
     Given user is on login page
     When user enters valid username and password
