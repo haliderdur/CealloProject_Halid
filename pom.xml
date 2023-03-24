@@ -36,6 +36,13 @@
             <version>1.0.2</version>
         </dependency>
 
+        <!-- to get rid of SLF4J Failed to load message from the console -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.32</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
             <groupId>io.cucumber</groupId>
